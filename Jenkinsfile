@@ -17,7 +17,8 @@ pipeline {
 
           }
           steps {
-            sh 'sh ci/build-app.sh'
+            sh '''cd ~/cloudshell_open/jenkins-katas
+sh ci/build-app.sh'''
           }
         }
 
