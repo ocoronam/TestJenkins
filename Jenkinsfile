@@ -17,7 +17,7 @@ pipeline {
 
           }
           steps {
-            sh './build-app.sh'
+            sh 'sh ci/build-app.sh'
           }
         }
 
